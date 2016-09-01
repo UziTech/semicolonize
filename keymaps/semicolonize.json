@@ -1,5 +1,8 @@
 {
-	"atom-workspace atom-text-editor:not([mini])": {
-		"shift-cmd-enter": "semicolonize:semicolonize"
+	".platform-darwin atom-workspace atom-text-editor:not([mini])": {
+		"cmd-shift-enter": "semicolonize:semicolonize"
+	},
+	".platform-win32 atom-workspace atom-text-editor:not([mini]), .platform-linux atom-workspace atom-text-editor:not([mini])": {
+		"ctrl-shift-enter": "semicolonize:semicolonize"
 	}
 }
