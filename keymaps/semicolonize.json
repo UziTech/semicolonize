@@ -1,0 +1,5 @@
+{
+	"atom-workspace atom-text-editor:not([mini])": {
+		"shift-cmd-enter": "semicolonize:semicolonize"
+	}
+}
