@@ -1,8 +1,10 @@
 {
 	".platform-darwin atom-workspace atom-text-editor:not([mini])": {
-		"cmd-shift-enter": "semicolonize:semicolonize"
+		"cmd-shift-enter": "semicolonize:semicolonize",
+		"cmd-alt-,": "semicolonize:commanize"
 	},
 	".platform-win32 atom-workspace atom-text-editor:not([mini]), .platform-linux atom-workspace atom-text-editor:not([mini])": {
-		"ctrl-shift-enter": "semicolonize:semicolonize"
+		"ctrl-shift-enter": "semicolonize:semicolonize",
+		"ctrl-alt-,": "semicolonize:commanize"
 	}
 }
